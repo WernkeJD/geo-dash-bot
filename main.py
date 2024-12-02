@@ -12,7 +12,7 @@ pygame.init()
 
 # Constants
 WIDTH, HEIGHT = 800, 600  # Screen dimensions
-FPS = 60  # Frames per second
+FPS = 300  # Frames per second
 TITLE = "Pygame Boilerplate"
 
 # Setup Pymunk

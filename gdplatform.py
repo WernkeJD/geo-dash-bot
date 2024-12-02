@@ -28,7 +28,7 @@ class GDPlatform():
         ]
 
         self.safe_body = pymunk.Body(body_type=pymunk.Body.KINEMATIC)
-        self.safe_body.friction = 1.0
+        self.safe_body.friction = 0
         self.safe_body.position = location
         shape = pymunk.Poly(self.safe_body, self.safe_points)
         shape.collision_type = 0
